@@ -1,0 +1,52 @@
+/*Header css börjar*/
+
+/*Navigationslänkarna*/
+
+a {
+    display:block;
+    text-decoration:none;
+    background-color: rgb(255,0,0);
+    color: orange;
+    padding: 41px 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 0;
+    display: inline-block;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+li a.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+nav {
+    width: 180%;
+    height: 100px;
+    background-color: rgb(0,0,255);
+}
+
+li a:active{
+    background-color: yellow;
+}
+
+
+
+
+
+/*Header css slutar*/
