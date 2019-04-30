@@ -1,11 +1,10 @@
 /*Header css börjar*/
-
 /*Navigationslänkarna*/
 
 a {
-    display:block;
+    display:block;  
     text-decoration:none;
-    background-color: rgb(255,0,0);
+    background-color: rgb(0,0,0);
     color: orange;
     padding: 41px 30px;
     text-align: center;
@@ -38,15 +37,32 @@ li a.active {
 nav {
     width: 180%;
     height: 100px;
-    background-color: rgb(0,0,255);
+    background-color: rgb(56, 56, 56);
 }
 
 li a:active{
     background-color: yellow;
 }
 
-
-
-
+nav p {
+    text-align: right;
+}
 
 /*Header css slutar*/
+/*Main css börjar*/
+
+/*Main css slutar*/
+
+/*Footer css börjar*/
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  rgb(56, 56, 56);
+    color: white;
+    text-align: center;
+}
+
+/*Footer css slutar*/
