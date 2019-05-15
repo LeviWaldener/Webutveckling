@@ -73,12 +73,12 @@ img {
     height: 150px;  
   }
 
-  .kolumn {
+.kolumn {
     float: left;
     text-align: center;
   }
 
-  p:only-child {
+p:only-child {
     background: red;
 }
 
@@ -93,6 +93,22 @@ img {
     color: black;
     padding: 40px;
     text-align: left;
+  }
+
+  a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: yellow;
+  }
+  
+  a:active {
+    color: blue;
+  }
+
+  input:focus {
+    background-color: yellow;
   }
 /*Main css slutar*/
 
